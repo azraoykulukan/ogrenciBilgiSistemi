@@ -1,6 +1,6 @@
-/* 1. Kullanıcıdan istenen iki farklı sayıyı yer değiştiriniz. Sayıları kullanıcıdan
-alınan ilk haliyle ve yer değiştirilmiş haliyli ekrana ayrı ayrı yazdırınız.
-Örn: firstNumber = 5, secondNumber=9
+/* 1. KullanÄ±cÄ±dan istenen iki farklÄ± sayÄ±yÄ± yer deÄŸiÅŸtiriniz. SayÄ±larÄ± kullanÄ±cÄ±dan
+alÄ±nan ilk haliyle ve yer deÄŸiÅŸtirilmiÅŸ haliyli ekrana ayrÄ± ayrÄ± yazdÄ±rÄ±nÄ±z.
+Ã–rn: firstNumber = 5, secondNumber=9
 firstNumber swap secondNumber ? firstNumber=9 , secondNumber=5 */
 #include <stdio.h>
 int main()
@@ -19,8 +19,8 @@ int main()
 }
 
 
-/*2. Switch Case kullanarak kullanıcıdan alınan giriş karakterinin sesli harf
-olup olmadığını kontrol eden programı yazınız.*/
+/*2. Switch Case kullanarak kullanÄ±cÄ±dan alÄ±nan giriÅŸ karakterinin sesli harf
+olup olmadÄ±ÄŸÄ±nÄ± kontrol eden programÄ± yazÄ±nÄ±z.*/
 #include <stdio.h>
 int main()
 {
@@ -43,11 +43,11 @@ int main()
 }
 
 
-/*3. İf else yapısı kullanarak kullanıcıdan alınan bir saat diliminin 10’dan
-küçük olma durumunda Günaydın yazdıran, 10 ile 18 saatleri arasında
+/*3. Ä°f else yapÄ±sÄ± kullanarak kullanÄ±cÄ±dan alÄ±nan bir saat diliminin 10â€™dan
+kÃ¼Ã§Ã¼k olma durumunda GÃ¼naydÄ±n yazdÄ±ran, 10 ile 18 saatleri arasÄ±nda
 ise
-iyi günler yazdıran bunun dışında iyi akşamlar yazdıran program yazınız.
-Örn: time =15 time&gt;=10 &amp; time&lt;18 =&gt; “İyi günler” */
+iyi gÃ¼nler yazdÄ±ran bunun dÄ±ÅŸÄ±nda iyi akÅŸamlar yazdÄ±ran program yazÄ±nÄ±z.
+Ã–rn: time =15 time&gt;=10 &amp; time&lt;18 =&gt; â€œÄ°yi gÃ¼nlerâ€ */
 #include <stdio.h>
 int main()
 {
@@ -64,9 +64,9 @@ int main()
 }
 
 
-/*4. aldığı notun ortalamasını hesaplayan ve ortalamaya göre harf notunu
-hesaplayan programı yazın.
-Örn: Kimya:70 Matematik:80 Fizik:100 İngilizce:50 Türkçe:100
+/*4. aldÄ±ÄŸÄ± notun ortalamasÄ±nÄ± hesaplayan ve ortalamaya gÃ¶re harf notunu
+hesaplayan programÄ± yazÄ±n.
+Ã–rn: Kimya:70 Matematik:80 Fizik:100 Ä°ngilizce:50 TÃ¼rkÃ§e:100
 Toplam: 70 + 80 + 100 + 50 + 100 = 400
 Ortalama = (400/500)*100= 80 ( Ort&gt;=90 ? A, Ort&gt;=80 ? B, Ort&gt;=70 ? C,
 
@@ -95,14 +95,14 @@ int main()
 }
 
 
-/*5. Verilen biçimde iki sayı ve kullanıcıdan bir karakter isteyin. Bunları
-num1, op ve num2 gibi değişkenlerde saklayın.
-Örn: Switch(op) dört olası op değeri vardır, yani &#39;+&#39;, &#39;-&#39;, &#39;*&#39; ve &#39;/&#39;. &#39;+&#39;
-durumu için ekleme yapın ve sonucu bazı değişkenlerde saklayın, yani
-sonuç = num1 + num2. Benzer şekilde, &#39;-&#39; durumu için çıkarma yapın
-ve sonucu bazı değişkenlerde saklayın, yani sonuç = num1 - num2.
-Çarpma ve bölme için işlemi tekrarlayın. Son olarak sonucun değerini
-yazdırın. */
+/*5. Verilen biÃ§imde iki sayÄ± ve kullanÄ±cÄ±dan bir karakter isteyin. BunlarÄ±
+num1, op ve num2 gibi deÄŸiÅŸkenlerde saklayÄ±n.
+Ã–rn: Switch(op) dÃ¶rt olasÄ± op deÄŸeri vardÄ±r, yani &#39;+&#39;, &#39;-&#39;, &#39;*&#39; ve &#39;/&#39;. &#39;+&#39;
+durumu iÃ§in ekleme yapÄ±n ve sonucu bazÄ± deÄŸiÅŸkenlerde saklayÄ±n, yani
+sonuÃ§ = num1 + num2. Benzer ÅŸekilde, &#39;-&#39; durumu iÃ§in Ã§Ä±karma yapÄ±n
+ve sonucu bazÄ± deÄŸiÅŸkenlerde saklayÄ±n, yani sonuÃ§ = num1 - num2.
+Ã‡arpma ve bÃ¶lme iÃ§in iÅŸlemi tekrarlayÄ±n. Son olarak sonucun deÄŸerini
+yazdÄ±rÄ±n. */
 #include <stdio.h>
 int main()
 {
