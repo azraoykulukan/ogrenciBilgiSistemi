@@ -1,4 +1,4 @@
- /* SORU 1
+ /* SORU 1 */
  #include <stdio.h>
 int main()
 {
@@ -15,10 +15,10 @@ int main()
 	}
 	return 0;
 }
-*/
 
 
-/* SORU 2
+
+/* SORU 2 */
  #include <stdio.h>
 int main()
 {
@@ -33,10 +33,10 @@ int main()
 		printf("\n");
 		}
 		return 0;
-} */
+} 
 
 
-/*SORU 3 
+/*SORU 3 */
 #include <stdio.h>
 int main()
 {
@@ -49,10 +49,10 @@ int main()
 	printf("\n");
 	 }
 	return 0;
-} */
+} 
 
 
-/* SORU 4 
+/* SORU 4 */
 #include <stdio.h>
 int main()
 {
@@ -67,10 +67,10 @@ int main()
 	 }
 	return 0;
 } 
-*/
 
 
-/* SORU 5 
+
+/* SORU 5 */
 #include <stdio.h>
 int main()
 {
@@ -86,4 +86,4 @@ int main()
 	}
 	return 0;
 } 
-*/
+
