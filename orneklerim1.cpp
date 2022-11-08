@@ -47,4 +47,29 @@ int main()
 } 
 
 
-/* */
+/* Cinsiyet ve boy uzunluguna gore mulakati gecme durumu ornegi */
+#include <stdio.h>
+int main()
+{
+	int boy;
+	char i;
+	printf("Cinsiyetinizi giriniz E/K=");
+	scanf("%c",&i);
+	printf("cm cinsinden boyunuzu girin=");
+	scanf("%d",&boy);
+	if(i=='K'|| i=='k')
+	{
+		if(boy<=175 && boy >=160)
+		printf("Mulakati gectiniz");
+			else
+			printf("Mulakati gecemediniz");
+	}
+	else if(i=='E' || i=='e')
+	{
+		if(boy<=185 && boy>=170)
+		printf("Mulakati gectiniz");
+		else
+		printf("Mulakati gecemediniz"); 
+	}
+	return 0;
+}
