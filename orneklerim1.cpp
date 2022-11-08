@@ -57,20 +57,14 @@ int main()
 	scanf("%c",&i);
 	printf("cm cinsinden boyunuzu girin=");
 	scanf("%d",&boy);
-	if(i=='K'|| i=='k')
-	{
-		if(boy<=175 && boy >=160)
-		printf("Mulakati gectiniz");
-			else
-			printf("Mulakati gecemediniz");
-	}
-	else if(i=='E' || i=='e')
-	{
-		if(boy<=185 && boy>=170)
-		printf("Mulakati gectiniz");
-		else
-		printf("Mulakati gecemediniz"); 
-	}
+	if((i=='K'|| i=='k') && (boy<=175 && boy>=160))
+	{ printf("Mulakati gectiniz"); }
+		else if((i=='E' || i=='e') && (boy<=185 && boy>=170))
+		{ printf("Mulakati gectiniz"); }
+			else			
+			{ printf("Mulakati gecemediniz"); }
 	return 0;
 }
+
+
 
