@@ -67,4 +67,12 @@ int main()
 }
 
 
-
+/* Çıktısı nedir?= 26 */
+	#include <stdio.h>
+	int main ()
+	{
+	int x=1, y=5, z=11;
+x += y++ + --z / 2 * 4;
+printf("%d", x);
+return 0;
+}
